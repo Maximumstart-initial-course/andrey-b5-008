@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- <input type="date">	
+	<p>
+		<label> for="name-field">Ваше имя:</label>
+		<input type="text" id="name-field">
+	</p>
+	<p>
+		<label> for="checkbox-field">Запомнить Вас?:</label>
+		<input type="text" id="name-field" placeholder="test" required pattern="[0-9] {6}">	 			
+	</p>
+		<span>Ваш пол:</span>
+
+		<label for="gender-man">Мужской</label>	
+		<input type="radio" name="gender" id="gender-man" checked>	
+
+		<label for="gender-woman">Женский</label>
+		<input type="radio" name="gender" id="gender-woman">	
+	</p> -->
+	<!-- <label for="city-dropdown"></label>
+	<select name="city-dropdown" multiple>	
+		<option value="1">Киев</option>
+		<option value="2">Запорожье</option>
+		<option value="3">Львов</option>
+		<option value="4">Харьков</option>	
+	</select>
+
+	<button>Button</button>	
+
+	<textarea> cols="30" rows="10"></textarea>	
+	<textarea></textarea> -->
+
+	<form action="http://maximumstart-echo.herokuapp.com/" method="post">
+		<p>
+			<label for="email-fild">Email</label>
+			<input type="email" name="email-fild">
+		</p>
+
+		<p>
+			<label for="password-fild">Пароль</label>
+			<input type="password" name="password-fild">
+		</p>
+
+		<p>
+			<input type="submit">
+		</p>
+	</form>	
+	<form action="http://maximumstart-echo.herokuapp.com/"
+	method="POST" enctype="multipart/form-data">
+		<h1>Войти на сайт</h1>
+
+		<p>
+			<label for="file-loader">Отправьте файл</label>
+			<input type="file" name="file" >
+		</p>
+	<form action="http://maximumstart-echo.herokuapp.com/" method="post" enctype="multipart/form-data">
+		<table border="1">
+			<thead>
+				<tr>
+					<th colspan="2">Регистрация нового пользователя</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email"></td>
+			</tr>
+			<tr>
+				<td>Фамилия:</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Имя:</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Отчество:</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Пол:</td>
+				<td>
+					<span>Ваш пол:</span></td>
+				<td>
+					<label for="gender-man">Мужской</label>	
+					<input type="radio" name="gender" id="gender-man" checked>	
+				</td>
+					<label for="gender-woman">Женский</label>
+					<input type="radio" name="gender" id="gender-woman">	
+				</tr>
+			<tr>
+				<td>
+					<label for="data-field">Дата рождения</label>
+					<input type="date" name="data" id="data-field">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for=login>Логин</label>
+					<input type="login">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for=password>Пароль</label>		
+					<input type="" name="">
+					
+				</td>
+			</tr>
+					
+				</td>
+		</table>
+	</form>
+		
+	</form>
+</body>
+</html>	
