@@ -1,0 +1,27 @@
+html {
+	outline: 2px solid black;
+	padding: 10px;
+	margin: 20px 140px;
+	background: #D3D3D3;
+}
+* {
+	font-family: sans-serif;
+}
+
+.article__more {
+	text-decoration: none;
+}
+
+.article {
+	line-height: 27px;
+}
+
+.header {
+	text-align: center;
+}
+.brd {
+	outline: 2px solid black;
+	padding: 10px;
+	margin: 20px 140px;
+	border: 10px solid 	#FFF;
+	background-color: #BDB76B;
